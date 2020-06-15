@@ -1,0 +1,54 @@
+body{
+    /* background-color: grey; */
+    font-family: 'Roboto', sans-serif;
+     margin:0;
+     padding:0;
+     background-image: url(../img/back.png); 
+ } 
+ 
+
+  #particles-js{
+    height:720px;
+    background: #262626;
+ }
+/*.wrapper{
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: lightgrey;
+}
+ */
+
+
+.form-control{
+
+   box-shadow: none;
+   border-color: grey;
+}
+
+
+
+.form-header{
+     margin-top:20px;
+    text-align: center;
+   
+    
+}
+
+.form-header h2{
+    font-size: 28px;
+    margin: 0 0 10px;
+    font-family: 'Roberto', sans-serif;
+}
+
+.signup-form{
+    background-image: url(../img/back.png);
+ 
+    width: 400px;
+    margin: 0 auto;
+}
+.text{
+margin-bottom:10px;
+margin-top: -10px;
+text-align: center;
+}

@@ -1,0 +1,22 @@
+body{
+    /* background-color: grey; */
+     font-family: 'Roboto', sans-serif;
+     margin:auto;
+     padding:0;
+     background-image: url(../img/slika2.png);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center center;
+     background-size: cover;
+ 
+ }
+ 
+.container{
+ margin-top: 200px;
+   
+}
+.signin-form{
+margin: auto;
+
+}
+

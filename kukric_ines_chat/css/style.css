@@ -1,0 +1,213 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 30px;
+  background-image: url(../img/back.png);
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  line-height: 50px; 
+  background-color: #f5f5f5;
+  text-align: center;
+  font-size: 0.6em;
+}
+
+ul {
+  list-style: none;
+
+}
+
+.mt {
+  margin-top: 20px;
+  width: 230px;
+
+}
+.navbar{
+  padding-left: 100px;
+}
+.navbar-brand img{
+  size: 30px;
+}
+
+
+
+main {
+  margin-top: 40px;
+  
+}
+
+#users-ps {
+  position: relative;
+  width: 96%;
+  height: 550px;
+  overflow: auto;
+  background-color: rgb(193, 203, 214);
+}
+
+#users-ps ul li.contact {
+ 
+  position: relative;
+  padding: 10px 0 15px 0;
+  font-size: 0.9em;
+  cursor: pointer;
+  border-bottom: #aaabac solid 0.1px;
+
+  
+}
+
+#users-ps ul li.contact:hover {
+  background: #32465a;
+
+  color: #f2f2f2;
+}
+
+#users-ps ul li.contact.active {
+  background: #4a657e;
+  border-right: 5px solid #435f7a;
+  color: #f2f2f2;
+ 
+}
+
+#users-ps ul li.contact.active span.contact-status {
+  border: 2px solid #4a657e !important;
+
+}
+
+#users-ps ul li.contact .wrap {
+  width: 88%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#users-ps ul li.contact .wrap span.contact-status {
+  position: absolute;
+  left: 0;
+  margin: -2px 0 0 -2px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #4a657e;
+  background: #95a5a6;
+}
+
+#users-ps ul li.contact .wrap span.online {
+  background: #2ecc71;
+}
+
+
+#users-ps ul li.contact .wrap img {
+  width: 40px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 10px;
+}
+
+#users-ps ul li.contact .wrap .meta {
+  padding: 10px 0 0 0;
+}
+
+#users-ps ul li.contact .wrap .meta .name {
+  font-weight: 600;
+}
+
+#users-ps ul li.contact .wrap .meta .preview {
+  margin: 5px 0 0 0;
+  padding: 0 0 1px;
+  font-weight: 400;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -moz-transition: 1s all ease;
+  -o-transition: 1s all ease;
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
+}
+#users-ps ul li.contact .wrap .meta .preview span {
+  position: initial;
+  border-radius: initial;
+  background: none;
+  border: none;
+  padding: 0 2px 0 0;
+  margin: 0 0 0 1px;
+  opacity: 0.5;
+}
+
+.chat-head {
+  height: 50px;
+  width:30%;
+  background-color:  #4a657e;
+  margin-top:10px;
+  opacity: 67%;
+  
+  padding: .75rem 1.25rem;
+  border-radius: 2%;
+  text-align: left;
+}
+
+#chat-box-ps {
+  position: relative;
+  background-image: url(../img/back.png);
+ 
+  margin-bottom: 20px;
+  height: 390px;
+  width: 93%;
+  overflow: auto;
+}
+
+#chat-box-ps ul li {
+  display: inline-block;
+  clear: both;
+
+  margin: 5px 15px 5px 15px;
+  width: calc(100% - 25px);
+  font-size: 0.9em;
+}
+
+#chat-box-ps ul li:nth-last-child(1) {
+  margin-bottom: 5px;
+}
+
+#chat-box-ps ul li.poslano p {
+  background: darkslateblue;
+  margin-left:10px;
+  color: #f5f5f5;
+}
+
+#chat-box-ps ul li.primljeno p {
+  background: #847e9e;
+  color: #f5f5f5;
+  float: right;
+}
+
+#chat-box-ps ul li .chat-wrapper {
+  margin-bottom: -20px;
+  max-width: 410px;
+}
+
+#chat-box-ps ul li.primljeno .chat-wrapper {
+  float: right;
+  margin-bottom: -20px;
+  
+}
+
+#chat-box-ps ul li p {
+  display: inline-block;
+  padding: 7px 15px;
+
+  border-radius: 14px;
+  line-height: 130%;
+}
+
+.form-group{
+  width:98%;
+}
+
+.btn{
+  margin: 10px 50px 0px 0px;
+}

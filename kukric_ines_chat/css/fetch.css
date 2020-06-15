@@ -1,0 +1,43 @@
+body{
+     font-family: 'Roboto', sans-serif;
+     margin:0;
+     padding:0;
+     height: 40vh;
+     background-image: url(../img/back.png);
+  
+    
+ }
+ 
+ #particles-js{
+      height: 50%;
+      background: #262626;
+ }
+
+
+
+ #button{
+     margin-top: 20px;
+     margin-left:20px;
+     height:40px;
+     width:70px;
+ }
+
+ .container-fluid{
+    width: 700px;
+
+ }
+ .table{
+     margin-top: 50px;
+     
+ }
+ th{
+     
+     background-color: lightgrey;
+     border-bottom-style: inset;
+ }
+
+ h2{
+     text-align:center;
+     font-size: 25px;
+
+}
